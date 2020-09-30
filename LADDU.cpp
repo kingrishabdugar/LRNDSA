@@ -28,8 +28,27 @@ int main()
        while(as--)
        {
            string ac;
-        //complete the program
-        
+           cin>>ac;
+        if(ac=="CONTEST_WON")
+        {
+         ll r;
+         cin>>r;
+         total+=300+(r<=20?(20-r):0);
+        }
+        else if(ac=="TOP_CONTRIBUTOR")
+        {
+            total+=300;
+        }
+        else if(ac=="BUG_FOUND")
+        {
+            ll s;
+            cin>>s;
+            total+=s;
+        }
+        else if("CONTEST_HOSTED")
+        {
+            total+=50;
+        }
        }
        cout<<(total/(o=="INDIAN"?200:400))<<endl;
     }
