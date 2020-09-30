@@ -24,8 +24,17 @@ int main()
         ll n;
         cin>>n;
         ll a[n];
-        ll count=1
-        //correct the errors and complete the program
+        ll count=1;
+        rep(i,n){
+            cin>>a[i];
+        }
+        for(int i=1;i<n;i++)
+        {
+            if(a[i]<a[i-1])
+            count++;
+            else
+            a[i]=a[i-1];
+        }
         cout<<count<<endl;
     }
 }
