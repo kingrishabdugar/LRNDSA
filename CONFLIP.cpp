@@ -28,8 +28,9 @@ int main()
           ll i1,n,q;
           cin>>i1>>n>>q;
           ll h,t;
-           
-           // complete the program   
+            if(n%2==0)
+            h=t=n/2;
+            else
               if(q==1) cout<<h<<endl;
               else cout<<t<<endl;
         }
