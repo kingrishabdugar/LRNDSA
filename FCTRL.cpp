@@ -23,7 +23,11 @@ int main()
     {
         ll n;
         cin>>n;
-        // complete the program
+        ll sum=0;
+        for(ll i=5;i<=1000000000;i*=5)
+        {
+            sum+=n/i;
+        }
         cout<<sum<<endl;
     }
 }
