@@ -1,11 +1,12 @@
 # LRNDSA
 # Solutions of LRNDSA01 contest on codechef
 # Beginner Friendly Repository for Newcomers on Github
+
 # Creating a Pull Request for the 1st time ? Read out the steps below !!
 
-# Forking in GitHub is a handy feature when you don’t have the necessary permissions to access the repository in which you wish to suggest changes and you don’t want to waste your valuable time waiting for it.
+Forking in GitHub is a handy feature when you don’t have the necessary permissions to access the repository in which you wish to suggest changes and you don’t want to waste your valuable time waiting for it.
 
-# Once you’ve made changes to your forked repository, you can suggest to push them into the original repository using the following steps:
+Once you’ve made changes to your forked repository, you can suggest to push them into the original repository using the following steps:
 
 1. Open the main page of the original repository that you created a fork for.
 
