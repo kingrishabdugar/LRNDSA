@@ -1,0 +1,11 @@
+//const int M=1e9+7;
+    ll mod(ll x, ll M){
+        return ((x%M + M)%M);
+    }
+    long long add(ll a, ll b, ll M){
+        return mod(mod(a,M) + mod(b,M) , M);
+    }
+    ll mul(ll a, ll b, ll M){
+        return mod(mod(a,M) * mod(b,M) , M);
+    }
+
